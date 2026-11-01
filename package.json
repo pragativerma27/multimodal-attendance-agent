@@ -1,0 +1,30 @@
+{
+  "name": "multimodal-attendance-agent",
+  "version": "1.0.0",
+  "description": "Multimodal Attendance & Engagement Agent - AI-Powered Classroom Intelligence Platform",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "npm run start --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "npm run dev:concurrent",
+    "dev:concurrent": "npx concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "seed": "node server/services/demoDataSeeder.js",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [
+    "ai",
+    "face-detection",
+    "attendance",
+    "engagement-analysis",
+    "audio-analysis",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "pragtiverma27",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
