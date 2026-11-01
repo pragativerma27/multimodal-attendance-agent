@@ -275,7 +275,7 @@ You can log in directly using the quick demo buttons on the login screen or ente
 4. Copy your connection URI (`mongodb+srv://...`) and paste it as `MONGODB_URI` in your backend environment variables.
 
 ### 2. Backend Deployment (Render / Railway)
-1. Push your repository to GitHub (`pragtiverma27/multimodal-attendance-agent`).
+1. Push your repository to GitHub (`pragativerma27/multimodal-attendance-agent`).
 2. Log in to [Render](https://render.com/) and create a new **Web Service**.
 3. Set **Root Directory** to `server`.
 4. Set **Build Command** to `npm install`.
@@ -306,14 +306,14 @@ git init
 git add .
 git commit -m "feat: initial commit of Multimodal Attendance & Engagement Agent"
 git branch -M main
-git remote add origin https://github.com/pragtiverma27/multimodal-attendance-agent.git
+git remote add origin https://github.com/pragativerma27/multimodal-attendance-agent.git
 git push -u origin main
 ```
 
-*(If you haven't installed Git on your machine, download it from [git-scm.com](https://git-scm.com/) and sign in with your GitHub username: `pragtiverma27`).*
+*(If you haven't installed Git on your machine, download it from [git-scm.com](https://git-scm.com/) and sign in with your GitHub username: `pragativerma27`).*
 
 ---
 
 ## 📄 License & Academic Attribution
-Developed as an advanced academic project by **Pragti Verma** (`pragtiverma27`).  
+Developed as an advanced academic project by **Pragati Verma** (`pragativerma27`).  
 Licensed under the [MIT License](LICENSE).
